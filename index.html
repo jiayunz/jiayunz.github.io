@@ -3,15 +3,11 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
-
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 		<title>Jiayun's Homepage</title>
@@ -20,21 +16,17 @@
 	<body>
 		<div class="container">
 			<div class="row row-thin">
-				<div class="col-md-6 text-left">
-					<h1 class="title-super">Jiayun Zhang</h1>
-				</div>
-				<div class="col-md-6 text-right">
-					<img src="images/photo.jpeg" width="85" height="85" style="margin-top:10px;margin-bottom:10px"></img>
-				</div>
+				<h1 class="title-name">Jiayun Zhang</h1>
+				<img class="title-img" src="images/photo.jpeg" width="85" height="85" style="margin-top:10px;margin-bottom:10px"></img>
 			</div> <!-- class="row" -->
 			
 			<div class="row row-thin">
-				<div class="col-md-6 text-left">
+				<div class="text-left" style="float: left">
 					<span>Undergraduate Student</span><br/>
 					<span>School of Computer Science</span><br/>
 					<span>Fudan University</span>
 				</div>
-				<div class="col-md-6 text-right flex-col">
+				<div class="text-right" style="float: right">
 					<span>Room 806, Building 1, No. 1433 Cailun Road</span><br/>
 					<span>Shanghai, 201203, P.R.China</span><br/>
 					<span>jiayunzhang15@fudan.edu.com</span><br/>
@@ -69,35 +61,36 @@
 				</div>
 			</div> <!-- class="row" -->
 
-			<div class="row row-thin gray">
-				<div class="col-md-3">
-					<img class="img-responsive img-embeded" src="images/sigcomm19.png">
-				</div>
-				<div class="col-md-9"><p>
-					<a class="blue_link" href="https://xxx"><span class="title-item">Identifying Structural Hole Spanners in Online Social Networks Using Machine Learning</h4></a><br/>
-					<span>Qingyuan Gong, <strong>Jiayun Zhang</strong>, Xin Wang, Yang Chen </span><br/>
-					<span><strong>ACM SIGCOMM 2019 Conference (SIGCOMM Posters and Demos)</strong></span><br/>
-					Existing solutions for identifying structural hole spanners normally require the knowledge of the entire social graph.
-					In this paper, we propose a novel solution to uncover structural hole spanners according to the users’ profiles and user-generated contents with a machine learning-based model.
-					We further leverage the ego networks and the cross-site linking function to enhance the identification.
-				</p>
-				</div>
-			</div>
+			<div class="row row-thin">
+				<ul class="my_table">
+					<div class="gray">
+						<li class="my_item">
+							<img class="img-embeded" src="images/sigcomm19.png" width="200" height="130"">
+							<div ><p>
+								<a class="blue_link" href="https://xxx"><span class="title-item">Identifying Structural Hole Spanners in Online Social Networks Using Machine Learning</h4></a><br/>
+								<span>Qingyuan Gong, <strong>Jiayun Zhang</strong>, Xin Wang, Yang Chen </span><br/>
+								<span><strong>ACM SIGCOMM 2019 Conference (SIGCOMM Posters and Demos)</strong></span><br/>
+								Existing solutions for identifying structural hole spanners normally require the knowledge of the entire social graph.
+								In this paper, we propose a novel solution to uncover structural hole spanners according to the users’ profiles and user-generated contents with a machine learning-based model.
+								We further leverage the ego networks and the cross-site linking function to enhance the identification.
+							</p></div>
+						</li>
+					</div>
 
-			<div class="row row-thin gray">
-				<div class="col-md-3">
-					<img class="img-responsive img-embeded" src="images/deeploc.png">
-				</div>
-				<div class="col-md-9"><p>
-					<a class="blue_link" href="https://xxx"><span class="title-item">DeepLoc: A Location Preference Prediction System for Online Lodging Platforms</span></a><br/>
-					<span>Yihan Ma, Hua Sun, Yang Chen, <strong>Jiayun Zhang</strong>, Yang Xu, Xin Wang, Pan Hui.</span><br/>
-					<span><strong>Chinese Conference on Computer Supported Cooperative Work and Social Computing, ChineseCSCW 2019</strong></span><br/>
-					To make a booking on a online lodging platform such as Airbnb, a user usually needs to select a city first, then browses among prospective options. 
-					To improve user experience, we propose DeepLoc, a location preference prediction system, adopting deep learning technologies to predict the location preference of a user’s next booking based on her descriptive features and booking history. 
-					</p>
-				</div>
+					<div class="gray">
+						<li class="my_item">
+							<img class="img-embeded" src="images/deeploc.png" width="200" height="140"">
+							<div ><p>
+								<a class="blue_link" href="https://xxx"><span class="title-item">DeepLoc: A Location Preference Prediction System for Online Lodging Platforms</span></a><br/>
+								<span>Yihan Ma, Hua Sun, Yang Chen, <strong>Jiayun Zhang</strong>, Yang Xu, Xin Wang, Pan Hui.</span><br/>
+								<span><strong>Chinese Conference on Computer Supported Cooperative Work and Social Computing, ChineseCSCW 2019</strong></span><br/>
+								To make a booking on a online lodging platform such as Airbnb, a user usually needs to select a city first, then browses among prospective options. 
+								To improve user experience, we propose DeepLoc, a location preference prediction system, adopting deep learning technologies to predict the location preference of a user’s next booking based on her descriptive features and booking history. 
+							</p></div>
+						</li>
+					</div>
+				</ul>
 			</div>
-
 			<div class="row row-thin">
 				<div class="col-md-12 text-left">
 					<h2>Research</h2>
@@ -262,7 +255,7 @@
 						<div><p>
 						<strong>Travel Management Website</strong>.
 						<em style="color:#a00"> &nbsp Nov 2017</em><br/>
-						Developed a website for recording trips using Django and ECharts. Users can mark the cities they have visited and the cities they want to visit with di erent colors on the map that embedded in the webpage.</li>
+						Developed a website for recording trips using Django and ECharts. Users can mark the cities they have visited and the cities they want to visit with different colors on the map that embedded in the webpage.</li>
 						</p></div>
 					</li>
 

@@ -9,6 +9,7 @@
 
 .container {
   margin-bottom: 10%;
+  width: 1080px;
 }
 
 .row-thin {
@@ -25,9 +26,18 @@
   font-size: 15px;
 }
 
-.title-super {
+.title-name {
+  float: left;
   font-weight: 400;
   font-size: 50px;
+}
+
+.title-img {
+  float: right;
+  width: 85;
+  height: 85;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 .title-item {
@@ -50,10 +60,12 @@ h6 {
 }
 
 .img-embeded {
-  margin-top: 8px;
+  width: 200;
+  height: 150;
+  margin: 8px 8px 8px 8px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
   .flex-col {
     display: none;
   }
@@ -69,9 +81,10 @@ li.my_item{
 	position: relative;
 	clear: both;
 }
+
 li.my_item img{
 	float: left;
-	margin: 16px 0 10px 0;
+	margin: 15px 10px 5px 10px;
 }
 
 li.my_item div{
@@ -81,7 +94,7 @@ li.my_item div{
 
 li.my_item div p{
 	margin: 0;
-	padding: 5px 0 0 0;
+	padding: 5px 0 5px 0;
 }
 
 .shadow {
