@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2833b4ae-8453-44f6-a723-930854aa7d15" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/jiayunz-cv.pdf" afterPath="$PROJECT_DIR$/docs/jiayunz-cv.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cikm19.png" afterPath="$PROJECT_DIR$/images/cikm19.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="85" column="135" lean-forward="false" selection-start-line="85" selection-start-column="135" selection-end-line="85" selection-end-column="135" />
+            <state relative-caret-position="192">
+              <caret line="67" column="99" lean-forward="false" selection-start-line="67" selection-start-column="99" selection-end-line="67" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -148,8 +151,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="85" column="135" lean-forward="false" selection-start-line="85" selection-start-column="135" selection-end-line="85" selection-end-column="135" />
+        <state relative-caret-position="192">
+          <caret line="67" column="99" lean-forward="false" selection-start-line="67" selection-start-column="99" selection-end-line="67" selection-end-column="99" />
           <folding />
         </state>
       </provider>
