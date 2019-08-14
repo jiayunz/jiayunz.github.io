@@ -13,8 +13,8 @@
 }
 
 .row-thin {
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .text-thin {
@@ -74,7 +74,7 @@ h6 {
 ul.my_table{
 	list-style:none;
 	margin: 0;
-	padding: 0 0 10px 0;
+	padding: 0 0 10px 15px;
 }
 
 li.my_item{
@@ -84,7 +84,7 @@ li.my_item{
 
 li.my_item img{
 	float: left;
-	margin: 15px 10px 5px 10px;
+	margin: 5px 10px 5px 5px;
 }
 
 li.my_item div{
