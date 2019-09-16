@@ -1,11 +1,30 @@
-* {
-  padding: 0;
-  margin: 0;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Source Sans Pro', sans-serif;
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/texture.jpg);
   font-weight: 300;
   font-size: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
+
+#page {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 1080px;
+  text-align: left;
+  border-left: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+ }
+ 
+ #inner-page{
+    padding: 20px 26px 26px 26px;
+ }
+
+#main { 
+  border-bottom: 1px solid #d9d9d9;
+ }
 
 .container {
   margin-bottom: 10%;
