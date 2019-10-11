@@ -101,6 +101,11 @@ li.my_item{
 	clear: both;
 }
 
+ul.my_detail{
+	margin: 0;
+	padding: 0 0 10px 15px;
+}
+
 li.my_item img{
 	float: left;
 	margin: 5px 10px 5px 5px;
