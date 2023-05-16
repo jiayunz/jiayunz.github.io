@@ -8,7 +8,8 @@
 		<meta name="google-site-verification" content="aSc5YLbeF55oadInzbW2R97pKbsed12qRJ1Gfaghb2A">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<title>Jiayun Zhang's Homepage</title>
 	</head>
@@ -22,12 +23,16 @@
 					<span style="font-weight:400;font-size:50px">Jiayun Zhang</span><br/>
 					<span>Ph.D. Student</span><br/>
 					<span>Department of Computer Science and Engineering</span><br/>
-					<span>University of California San Diego</span><br/>
-					<span>Email: jiz069 at ucsd dot edu</span><br/>
-					<span><a href="docs/jiayunz-cv.pdf">CV</a> / <a href="https://scholar.google.com/citations?user=02tAJn0AAAAJ">Google Scholar</a> / <a href="https://github.com/jiayunz">GitHub</a></span><br/>
+					<span>University of California, San Diego</span><br/>
+					<span>
+						<a href="mailto:jiz069@ucsd.edu" class="my_link"><i class="fa fa-envelope"></i> Email</a> /
+						<a href="https://github.com/jiayunz" class="my_link"><i class="fa fa-github"></i> GitHub</a> / 
+						<a href="https://scholar.google.com/citations?user=02tAJn0AAAAJ" class="my_link"><i class="ai ai-google-scholar-square"></i> Google Scholar</a> /
+						<a href="docs/jiayunz-cv.pdf" class="my_link"><i class="fa fa-file-text"></i> CV</a>
+					</span><br/>
 				</div>
 				<div style="float:right">
-					<img src="images/photo.jpeg" width="155" height="155" style="float:right;margin-top:10px;margin-bottom:10px"></img><br/>
+					<img src="images/photo.jpeg" width="135" height="135" style="float:right;margin-top:10px;margin-bottom:10px"></img><br/>
 				</div>
 			</div> <!-- class="row" -->
 			
@@ -41,9 +46,9 @@
 				<div class="col-md-12 text-left">
 					<h2>About Me</h2>
 					<p>
-						I am a third year Ph.D. student in the department of Computer Science and Engineering at UC San Diego.
+						I am a third year Ph.D. student in the Department of Computer Science and Engineering at UC San Diego.
 						I am co-advised by Prof. <a href="http://mesl.ucsd.edu/gupta/">Rajesh K. Gupta</a> and Prof. <a href="https://shangjingbo1226.github.io/">Jingbo Shang</a>.
-						My research lies in the intersection of the Internet of Things (IoT) and data mining, with a focus on designing new data mining techniques for IoT systems to enhance data and system efficiency.
+						My research lies in the intersection of the Internet of Things (IoT) and data mining, with a focus on designing data- and system-efficient data mining strategies for IoT applications.
 						Before joining UCSD, I received my B.S. (with honors) in Computer Science from Fudan University, where I was advised by Prof. <a href="https://chenyang03.wordpress.com/">Yang Chen</a>.
 					</p>
 				</div>
@@ -54,28 +59,36 @@
 					<h2>Publications</h2>
 				</div>
 				<ul class="my_table">
-					<!--<li>
-						<strong>Federated Learning with Client-Exclusive Classes.</strong><br/>
+					<li class="my_item">
+						<img src="images/fedalign.png"" height="120" alt="generation" class="img_paper"/>
+						<strong>Navigating Alignment For Non-identical Client Class Sets: A Label Name-Anchored Federated Learning Framework.</strong><br/>
 						<span><strong>Jiayun Zhang</strong>, Xiyuan Zhang, Xinyang Zhang, Dezhi Hong, Rajesh K. Gupta, Jingbo Shang.</span><br/>
-						<span>arXiv preprint arXiv:2301.00489 (2023).</span><br/>
-						<button class="my_button" onclick="location.href='https://arxiv.org/pdf/2301.00489.pdf'">pdf</button>
-					</li><br/> -->
-					<li>
+						<span>To Appear: Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2023.</span><br/>
+						<button class="button_pdf" onclick="location.href='https://arxiv.org/pdf/2301.00489.pdf'">Preprint</button>
+						<button class="button_code" onclick="location.href='https://github.com/jiayunz'">Code</button>
+					</li><br/>
+					<li class="my_item">
+						<img src="images/stcolab.png"" height="95" alt="generation" class="img_paper"/>
 						<strong>Minimally Supervised Contextual Inference from Human Mobility: An Iterative Collaborative Distillation Framework.</strong><br/>
 						<span><strong>Jiayun Zhang</strong>, Xinyang Zhang, Dezhi Hong, Rajesh K. Gupta, and Jingbo Shang.</span><br/>
-						<span>Accepted by The 32nd International Joint Conferences on Artifical Intelligence (IJCAI), 2023.</span><br/>
+						<span>To Appear: Proceedings of the 32nd International Joint Conferences on Artificial Intelligence (IJCAI), 2023.</span><br/>
+						<button class="button_code" onclick="location.href='https://github.com/jiayunz/STColab'">Code</button>
 					</li><br/>
-					<li>
+					<li class="my_item">
+						<img src="images/demomotif.png"" height="110" alt="generation" class="img_paper"/>
 						<strong>DEMOMOTIF: Demographic Inference from Sparse Records of Shopping Transactions based on Motif Patterns.</strong><br/>
 						<span><strong>Jiayun Zhang</strong>, Xinyang Zhang, Dezhi Hong, Rajesh K. Gupta, and Jingbo Shang.</span><br/>
-						<span>MLoG Workshop at WSDM'23, Singapore, March 3, 2023.</span><br/>
-						<button class="my_button" onclick="location.href='https://mlog-workshop.github.io/papers/wsdm23/2023-WSDM-MLoG-DEMOMOTIF_Demographic_Inference_from_Sparse_Records_of_Shopping_Transactions_based_on_Motif_Patterns.pdf'">pdf</button>
+						<span>The 3rd International Workshop on Machine Learning on Graphs (MLoG) at the 16th ACM International Conference on Web Search and Data Mining (WSDM), Singapore, Mar. 3, 2023.</span><br/>
+						<button class="button_pdf" onclick="location.href='https://mlog-workshop.github.io/papers/wsdm23/2023-WSDM-MLoG-DEMOMOTIF_Demographic_Inference_from_Sparse_Records_of_Shopping_Transactions_based_on_Motif_Patterns.pdf'">PDF</button>
 					</li><br/>
-					<li>
+					<li class="my_item">
+						<img src="images/blacklight.png"" height="70" alt="generation" class="img_paper"/>
 						<strong>Blacklight: Defending Black-Box Adversarial Attacks on Deep Neural Networks.</strong><br/>
 						<span>Huiying Li, Shawn Shan, Emily Wenger, <strong>Jiayun Zhang</strong>, Haitao Zheng, Ben Y. Zhao.</span><br/>
-						<span>Proceedings of 31st USENIX Security Symposium (USENIX Security), Boston, MA, August 2022.</span><br/>
-						<button class="my_button" onclick="location.href='https://arxiv.org/pdf/2006.14042.pdf'">pdf</button>
+						<span>Proceedings of the 31st USENIX Security Symposium (USENIX Security), Boston, MA, August 2022.</span><br/>
+						<button class="button_pdf" onclick="location.href='https://arxiv.org/pdf/2006.14042.pdf'">PDF</button>
+						<button class="button_code" onclick="location.href='https://github.com/Huiying-Li/blacklight'">Code</button>
+						<!--<button class="button_webpage" onclick="location.href='https://sandlab.cs.uchicago.edu/blacklight/'">Webpage</button>-->
 					</li><br/>
 					<!--
 					<li>
@@ -83,175 +96,58 @@
 						<span><strong>Jiayun Zhang</strong>, Qingyuan Gong, Yang Chen, Yu Xiao, Xin Wang, Aaron Yi Ding.</span><br/>
 						<span>In Submission.</span><br/>
 					</li><br/> -->
-					<li>
+					<li class="my_item">
+						<img src="images/work_pattern.png"" height="100" alt="generation" class="img_paper"/>
 						<strong>Understanding the Working Time of Developers in IT Companies in China and the United States.</strong><br/>
 						<span><strong>Jiayun Zhang</strong>, Yang Chen, Qingyuan Gong, Aaron Yi Ding, Yu Xiao, Xin Wang, Pan Hui.</span><br/>
 						<span>IEEE Software, 2021, 38(2):96-106.</span><br/>
-						<button class="my_button" onclick="location.href='https://ieeexplore.ieee.org/document/9068220'">pdf</button>
+						<button class="button_pdf" onclick="location.href='https://ieeexplore.ieee.org/document/9068220'">PDF</button>
 					</li><br/>
-					<li>
+					<li class="my_item">
+						<img src="images/deeppredict.png"" height="120" alt="generation" class="img_paper"/>
 						<strong>DeepPredict: A Zone Preference Prediction System for Online Lodging Platforms.</strong><br/>
 						Yihan Ma, Hua Sun, Yang Chen, <strong>Jiayun Zhang</strong>, Yang Xu, Xin Wang, Pan Hui.</span><br/>
 						<span>Journal of Social Computing, 2021, 2(1):52-70.</span><br/>
-						<button class="my_button" onclick="location.href='https://ieeexplore.ieee.org/document/9355036'">pdf</button>
+						<button class="button_pdf" onclick="location.href='https://ieeexplore.ieee.org/document/9355036'">PDF</button>
 					</li><br/>
-					<li>
+					<li class="my_item">
+						<img src="images/assembly.jpg"" height="110" alt="generation" class="img_paper"/>
 						<strong> Dataset: A video dataset of a wooden box assembly process.</strong><br/>
 						<span><strong>Jiayun Zhang</strong>, Petr Byvshev, Yu Xiao.</span><br/>
-						<span>Proceedings of the Third Workshop on Data: Acquisition To Analysis (DATA@SenSys), Virtual Event, Japan, Nov. 2020.</span><br/>
-						<button class="my_button" onclick="location.href='https://dl.acm.org/doi/10.1145/3419016.3431492'">pdf</button>
-						<button class="my_button" onclick="location.href='https://zenodo.org/record/4040605#.X5bholk9t3Z'">dataset</button>
+						<span>Proceedings of the Third Workshop on Data: Acquisition To Analysis (DATA), co-located with the 18th ACM Conference on Embedded Networked Sensor Systems (SenSys), Virtual Event, Japan, Nov. 2020.</span><br/>
+						<button class="button_pdf" onclick="location.href='https://dl.acm.org/doi/10.1145/3419016.3431492'">PDF</button>
+						<button class="button_dataset" onclick="location.href='https://zenodo.org/record/4040605#.X5bholk9t3Z'">Dataset</button>
 					</li><br/>
-					<li>
+					<li class="my_item">
+						<img src="images/fawkes.png"" height="120" alt="generation" class="img_paper"/>
 						<strong>Fawkes: Protecting Personal Privacy against Unauthorized Deep Learning Models.</strong><br/>
 						<span>Shawn Shan, Emily Wenger, <strong>Jiayun Zhang</strong>, Huiying Li, Haitao Zheng, Ben Y. Zhao.</span><br/>
 						<span>Proceedings of the 29th USENIX Security Symposium (USENIX Security), Boston, MA, Aug. 2020.</span><br/>
-						<button class="my_button" onclick="location.href='https://arxiv.org/pdf/2002.08327.pdf'">pdf</button>
-						<button class="my_button" onclick="location.href='https://github.com/Shawn-Shan/fawkes'">code</button>
-						<button class="my_button" onclick="location.href='https://sandlab.cs.uchicago.edu/fawkes/'">webpage</button>
+						<button class="button_pdf" onclick="location.href='https://arxiv.org/pdf/2002.08327.pdf'">PDF</button>
+						<button class="button_code" onclick="location.href='https://github.com/Shawn-Shan/fawkes'">Code</button>
+						<!--<button class="button_webpage" onclick="location.href='https://sandlab.cs.uchicago.edu/fawkes/'">Webpage</button>-->
 					</li><br/>
-					<li>
+					<li class="my_item">
+						<img src="images/gitsec.png"" height="140" alt="generation" class="img_paper"/>
 						<strong> Detecting Malicious Accounts in Online Developer Communities Using Deep Learning.</strong><br/>
 						<span>Qingyuan Gong, <strong>Jiayun Zhang</strong>, Yang Chen, Qi Li, Yu Xiao, Xin Wang, Pan Hui. </span><br/>
 						<span>Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM), Beijing, China, Nov. 2019.</span><br/>
-						<button class="my_button" onclick="location.href='https://user.informatik.uni-goettingen.de/~ychen/papers/GitSec-CIKM19.pdf'">pdf</button>
+						<button class="button_pdf" onclick="location.href='https://user.informatik.uni-goettingen.de/~ychen/papers/GitSec-CIKM19.pdf'">PDF</button>
 					</li><br/>
-					<li>
+					<li class="my_item">
+						<img src="images/shs.png"" height="120" alt="generation" class="img_paper"/>
 						<strong> Identifying Structural Hole Spanners in Online Social Networks Using Machine Learning.</strong><br/>
 						<span>Qingyuan Gong, <strong>Jiayun Zhang</strong>, Xin Wang, Yang Chen </span><br/>
 						<span>Proceedings of the ACM SIGCOMM 2019 Conference Posters and Demos. Beijing, China, Aug. 2019.</span><br/>
-						<button class="my_button" onclick="location.href='https://user.informatik.uni-goettingen.de/~ychen/papers/SHS-SIGCOMM19.pdf'">pdf</button>
+						<button class="button_pdf" onclick="location.href='https://user.informatik.uni-goettingen.de/~ychen/papers/SHS-SIGCOMM19.pdf'">PDF</button>
 					</li><br/>
 
 					<!--<li>
 						<strong> DeepLoc: A Location Preference Prediction System for Online Lodging Platforms.</strong><br/>
 						<span>Yihan Ma, Hua Sun, Yang Chen, <strong>Jiayun Zhang</strong>, Yang Xu, Xin Wang, Pan Hui.</span><br/>
 						<span>Proceedings of the 14th CCF Chinese Conference on Computer Supported Cooperative Work (ChineseCSCW), Kunming, China, Aug. 2019.</span><br/>
-						<button class="my_button"  onclick="location.href='https://user.informatik.uni-goettingen.de/~ychen/papers/DeepLoc-ChineseCSCW19.pdf'">pdf</button>
+						<button class="button_pdf"  onclick="location.href='https://user.informatik.uni-goettingen.de/~ychen/papers/DeepLoc-ChineseCSCW19.pdf'">PDF</button>
 					</li><br/>-->
-				</ul>
-			</div>
-			
-
-			<div class="row row-thin">
-				<div class="col-md-12 text-left">
-					<h2>Recent Research</h2>
-				</div>
-				<ul class="my_table">
-					<!--<li class="my_item">
-						<img src="images/fedalign.png"" style="margin-top:15px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong> Federated Learning with Client-Exclusive Classes.</strong><br/>
-							<em>co-advised by Prof. <a href="http://mesl.ucsd.edu/gupta/">Rajesh K. Gupta</a> and Prof. <a href="https://shangjingbo1226.github.io/">Jingbo Shang</a>, University of California, San Diego.</em>
-							<span class="date"> 2022 – 2023</span><br/>
-							We propose to study the client-exclusive classes scenario in federated learning, which is a practical statistical heterogeneity problem.
-						</p></div>
-					</li>-->
-					<li class="my_item">
-						<img src="images/stcolab.png"" style="margin-top:15px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong> Minimally Supervised Contextual Inference from Human Mobility: An Iterative Collaborative Distillation Framework. </strong><br/>
-							<em>co-advised by Prof. <a href="http://mesl.ucsd.edu/gupta/">Rajesh K. Gupta</a> and Prof. <a href="https://shangjingbo1226.github.io/">Jingbo Shang</a>, University of California, San Diego.</em>
-							<span class="date"> 2021 – 2022 </span><br/>
-							We propose STColab for inferring context information from mobility data. STColab sequentially trains spatial and temporal modules at each iteration following limited supervision and then lets them distill knowledge from each other.
-							This work has been accepted by <strong>IJCAI'23</strong>.
-						</p></div>
-					</li>
-					<li class="my_item">
-						<img src="images/demomotif.png"" style="margin-top:15px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong> DEMOMOTIF: Demographic Inference from Sparse Records of Shopping Transactions based on Motif Patterns.</strong><br/>
-							<em>co-advised by Prof. <a href="http://mesl.ucsd.edu/gupta/">Rajesh K. Gupta</a> and Prof. <a href="https://shangjingbo1226.github.io/">Jingbo Shang</a>, University of California, San Diego.</em>
-							<span class="date"> 2020 – 2021</span><br/>
-							We propose DemoMotif, a framework based on network motif embedding to infer demographic information from shopping transactions.
-							This work has been accepted by <strong>MLoG Workshop at WSDM'23</strong>.
-						</p></div>
-					</li>
-					<!--
-					<li class="my_item">
-						<img src="images/blacklight.png"" style="margin-top:15px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong> Defending Black-Box Adversarial Attacks on Deep Neural Networks</strong><br/>
-							<em>co-advised by Prof. <a href="http://people.cs.uchicago.edu/~ravenben/">Ben Y. Zhao</a> and Prof. <a href="http://people.cs.uchicago.edu/~htzheng/">Heather Zheng</a>, University of Chicago.</em>
-							<span class="date">Mar 2020 – Jun 2020</span><br/>
-							We propose Blacklight, a novel defense that detects query-based black-box attacks using an efficient similarity engine operating on probabilistic content fingerprints.
-							This work has been published in <strong>USENIX Security '22</strong>.
-						</p></div>
-					</li>
-					-->
-					<!--
-					<li class="my_item">
-						<img src="images/fawkes.png"" style="margin-top:15px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong> Protecting Personal Privacy against Unauthorized Deep Learning Models</strong><br/>
-							<em>co-advised by Prof. <a href="http://people.cs.uchicago.edu/~ravenben/">Ben Y. Zhao</a> and Prof. <a href="http://people.cs.uchicago.edu/~htzheng/">Heather Zheng</a>, University of Chicago.</em>
-							<span class="date">Jan 2020 – Feb 2020</span><br/>
-							We propose Fawkes, a system that allow individuals to inoculate themselves against unauthorized facial recognition models by adding imperceptible pixel-level changes to their photos.
-							This work has been published in <strong>USENIX Security '20</strong>.
-						</p></div>
-					</li>
-					-->
-					<!--
-					<li class="my_item">
-						<img src="images/work_pattern.png" style="margin-top:25px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong>Understanding Work Rhythms in Software Development</strong><br/>
-							<em>advised by Prof. <a href="https://chenyang03.wordpress.com/">Yang Chen</a>, Fudan University.</em>
-							<span class="date">Jan 2019 – Sep 2019</span><br/>
-							We identify representative work rhythms of developers by analyzing the commit behaviors and investigate the relationship between work rhythms and technical performance.
-							This work has been published in <strong>IEEE Software</strong>.
-						</p></div>
-					</li>
-					-->
-					<!--
-					<li class="my_item">
-						<img src="images/assembly.jpg" style="margin-top:15px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong>A Video and Sensor Dataset of a Wooden Box Assembly Process</strong><br/>
-							<em>advised by Prof. <a href="https://people.aalto.fi/yu_xiao">Yu Xiao</a>, Aalto University.</em>
-							<span class="date">Jun 2019 – Sep 2019</span><br/>
-							We collect a video and sensor dataset of the wooden box assembly process with multiple cameras and a sensor glove.
-							This work has been accepted by <strong>DATA '20</strong>.
-						</p></div>
-					</li>
-					-->
-					<!--
-					<li class="my_item">
-						<img src="images/structural_hole.png" style="margin-top:15px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong> Identifying Structural Hole Spanners in Online Social Networks</strong><br/>
-							<em>advised by Prof. <a href="https://chenyang03.wordpress.com/">Yang Chen</a>, Fudan University.</em>
-							<span class="date">Mar 2019 – May 2020</span><br/>
-							We propose CrossHole, a deep learning-based system for identifying structural hole spanners in online social networks by analyzing the user behaviors and leveraging the cross-site linking function.
-							A poster about this work has been published in <strong>SIGCOMM Posters and Demos '19</strong>.
-						</p></div>
-					</li>
-					-->
-					<!--
-					<li class="my_item">
-						<img src="images/gitsec.png" style="margin-top:15px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong>Malicious User Identification on Version Control Systems</strong><br/>
-							<em>advised by Prof. <a href="https://chenyang03.wordpress.com/">Yang Chen</a>, Fudan University.</em>
-							<span class="date">Jun 2018 – Jun 2019</span><br/>
-							We propose GitSec, a system with Phased LSTM and attention mechanism to detect malicious accounts on VCS.
-							This work has been published in <strong>CIKM '19</strong>.
-						</p></div>
-					</li>
-					-->
-					<!--
-					<li class="my_item">
-						<img src="images/diabetes.png" style="margin-top:25px" width="100" height="68" alt="generation" class="shadow"/>
-						<div><p>
-							<strong>Data Mining on Health-Seeking Behavior</strong><br/>
-							<em>advised by Prof. Yun Xiong, Fudan University.</em>
-							<span class="date">May 2017 – Apr 2018</span><br/>
-							We devise a model with SVM for pneumonia detection based on medication records, and a model with Time-Aware LSTM for diabete detection based on previous diagnoses.
-							We also developed a web-based interactive system for diabetes prediction.
-						</p></div>
-					</li>
-					-->
-
 				</ul>
 			</div>
 
@@ -259,26 +155,27 @@
 				<div class="col-md-12 text-left">
 					<h2>Experience</h2>
 				</div>
-				<!--<ul class="my_table">
-					<li class="my_item">
-						<img style="margin-left:30px" src="images/uchicago.png" width="50" height="60" alt="generation"/>
-						<div><p>
-						<strong>University of Chicago</strong>. &nbsp Chicago, IL, U.S.A
-						<br/>Research Assistant at the <a href=http://sandlab.cs.uchicago.edu/index.html>SAND Lab</a>, co-advised by Prof. <a href="http://people.cs.uchicago.edu/~ravenben/">Ben Y. Zhao</a> and Prof. <a href="http://people.cs.uchicago.edu/~htzheng/">Heather Zheng</a>.
-						<span class="date">Jan 2020 – Mar 2020</span>
-						</p></div>
-					</li>
-				</ul> -->
 			</div>
-
 			<!--<div class="row row-thin">
 				<ul class="my_table">
 					<li class="my_item">
-						<img style="margin-left:25px;margin-top:10px" src="images/aalto.png" width="60" height="45" alt="generation"/>
+						<img style="margin-left:30px;margin-top:0px" src="images/uchicago.png" width="50" height="60" alt="generation"/>
 						<div><p>
-						<strong>Aalto University</strong>. &nbsp Espoo, Finland
+						<strong>University of Chicago</strong>. Chicago, IL, U.S.A
+						<br/>Research Assistant at the <a href=http://sandlab.cs.uchicago.edu/index.html>SAND Lab</a>, co-advised by Prof. <a href="http://people.cs.uchicago.edu/~ravenben/">Ben Y. Zhao</a> and Prof. <a href="http://people.cs.uchicago.edu/~htzheng/">Heather Zheng</a>.
+						<span class="date">Jan – Mar 2020</span>
+						</p></div>
+					</li>
+				</ul>
+			</div>
+			<div class="row row-thin">
+				<ul class="my_table">
+					<li class="my_item">
+						<img style="margin-left:30px;margin-top:5px" src="images/aalto.png" width="60" height="45" alt="generation"/>
+						<div><p>
+						<strong>Aalto University</strong>. Espoo, Finland
 						<br/>Research Assistant at the <a href=http://mobilecloud.aalto.fi/>Mobile Cloud Computing (mc<sup>2</sup>) group</a>, advised by Prof. <a href="https://people.aalto.fi/yu_xiao">Yu Xiao</a>. 
-						<span class="date">Jun 2019 – Sep 2019</span>
+						<span class="date">Jun – Sep 2019</span>
 						</p></div>
 					</li>
 				</ul>
@@ -287,11 +184,11 @@
 			<div class="row row-thin">
 				<ul class="my_table">
 					<li class="my_item">
-						<img style="margin-top:15px" src="images/vmware.jpg" width="100" height="25" alt="generation"/>
+						<img style="margin-top:0px;margin-left:15px" src="images/vmware.jpg" width="85" alt="generation"/>
 						<div><p>
-						<strong>VMware, Inc</strong>. &nbsp Shanghai, China
+						<strong>VMware, Inc</strong>. Shanghai, China
 						<br/>MTS (Member of Technical Staff) Intern. 
-						<span class="date">Apr 2018 – Oct 2018</span>
+						<span class="date">Apr – Oct 2018</span>
 						</p></div>
 					</li>
 				</ul>
@@ -302,35 +199,21 @@
 					<li class="my_item">
 						<img style="margin-left:25px" src="images/fudan.png" width="60" height="60" alt="generation"/>
 						<div><p>
-						<strong>Fudan University</strong>. &nbsp Shanghai, China
-						<br/>B.S. in Computer Science
-						<span class="date">Sep 2015 – Jun 2020</span>
+						<strong>Fudan University</strong>. Shanghai, China
 						<br/>Research Assistant at the <a href=http://fudan-msn.weebly.com/>Mobile Systems and Networking (MSN) group</a>, advised by Prof. <a href="https://chenyang03.wordpress.com/">Yang Chen</a>.
 						<span class="date">May 2018 – Jun 2020</span>
 						</p></div>
 					</li>
 				</ul>
 			</div>-->
+
 			<div class="row row-thin">
 				<div class="col-md-12 text-left">
-					<h2>Services</h2>
+					<h2>Professional Services</h2>
 				</div>
 				<ul class="my_table">
-					<!--<li>
-						Reviewer, The 29th ACM SIGKDD Conference on Knowledge Discovery And Data Mining (KDD).
-						<span class="date">2023</span>
-					</li>-->
 					<li>
-						Reviewer, The 2023 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp).
-						<span class="date">2023</span>
-					</li>
-					<li>
-						Reviewer, The 37th AAAI Conference on Artificial Intelligence (AAAI).
-						<span class="date">2023</span>
-					</li>
-					<li>
-						Reviewer, Computer Communications.
-						<span class="date"">2021-2022</span>
+						Program Committee Member / Reviewer: KDD (2023), UbiComp (2023), AAAI (2023), Computer Communications (2021-2022).
 					</li>
 				</ul>
 			</div>
@@ -357,16 +240,12 @@
 						<span class="date"">2019</span>
 					</li>
 					<li>
-						Second Class Scholarship for Outstanding Students, Fudan University (Top 10%)
-						<span class="date">2019</span>
-					</li>
-					<li>
 						Xiyuan Scholar, Undergraduate Research Program in Fudan University
 						<span class="date">2018</span>
 					</li>
 					<li>
-						Third Class Scholarship for Outstanding Students, Fudan University
-						<span class="date">2016 & 2018</span>
+						Scholarship for Outstanding Students, Fudan University
+						<span class="date">2016 & 2018 & 2019</span>
 					</li>
 				</ul>
 			</div>
@@ -374,7 +253,7 @@
 		</div> <!-- class="main" -->
 		
 		<div style="padding:14px 0px 50px 0px;text-align:center;color:#d9d9d9;clear:both">
-			Last updated at Apr 19, 2023 by Jiayun
+			Last updated at May 16, 2023
 		</div>
 
 		</div> <!-- class="inner page" -->

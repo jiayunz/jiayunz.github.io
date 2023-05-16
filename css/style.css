@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
   background-image: url(../images/texture.jpg);
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.45em;
 }
@@ -49,12 +50,6 @@ body {
   margin-bottom: 1%;
 }
 
-.img-embeded {
-  width: 200;
-  height: 150;
-  margin: 8px 8px 8px 8px;
-}
-
 @media only screen and (max-width: 1000px) {
   .flex-col {
     display: none;
@@ -79,7 +74,13 @@ ul.my_detail{
 
 li.my_item img{
 	float: left;
-	margin: 5px 10px 5px 5px;
+	margin: 0px 15px 20px 5px;
+}
+
+.img_paper{
+	float: left;
+  width: 200px;
+	margin: 0px 15px 20px 5px;
 }
 
 li.my_item div{
@@ -120,6 +121,88 @@ button.my_button:hover {
 a{color:navy}
 a:hover{color:navy}
 */
+
+button.button_pdf {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:2px;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 1
+}
+
+button.button_code {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:2px;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+button.button_code:hover {
+  opacity: 1
+}
+
+button.button_dataset {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:2px;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+button.button_dataset:hover {
+  opacity: 1;
+}
+
+button.button_webpage {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:2px;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+button.button_webpage:hover {
+  opacity: 1;
+}
+
+.my_link {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.my_link:hover {
+  color: black;
+  text-decoration: underline;
+}
 
 .date {
   color:brown;
