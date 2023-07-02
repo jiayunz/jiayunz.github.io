@@ -7,6 +7,11 @@ body {
   font-size: 1.45em;
 }
 
+/* Styles for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Adjust the layout and font sizes for smaller screens */
+}
+
 #page {
   background-color: #ffffff;
   margin-left: auto;
