@@ -163,7 +163,7 @@ button.button_code:hover {
   opacity: 1
 }
 
-button.button_dataset {
+button.button_video {
   background-color: #f44336;
   border: none;
   color: white;
@@ -177,11 +177,11 @@ button.button_dataset {
   opacity: 0.8;
   transition: 0.3s;
 }
-button.button_dataset:hover {
+button.button_video:hover {
   opacity: 1;
 }
 
-button.button_webpage {
+button.button_dataset {
   background-color: #008CBA;
   border: none;
   color: white;
@@ -195,7 +195,7 @@ button.button_webpage {
   opacity: 0.8;
   transition: 0.3s;
 }
-button.button_webpage:hover {
+button.button_dataset:hover {
   opacity: 1;
 }
 
