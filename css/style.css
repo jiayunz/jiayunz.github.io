@@ -128,7 +128,7 @@ a:hover{color:navy}
 */
 
 button.button_pdf {
-  background-color: #4CAF50;
+  background-color: #6E963B;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -141,12 +141,12 @@ button.button_pdf {
   opacity: 0.8;
   transition: 0.3s;
 }
-button:hover {
+button.button_pdf:hover {
   opacity: 1
 }
 
 button.button_code {
-  background-color: orange;
+  background-color: #C69214;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -164,7 +164,7 @@ button.button_code:hover {
 }
 
 button.button_video {
-  background-color: #f44336;
+  background-color: #FFCD00;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -182,7 +182,7 @@ button.button_video:hover {
 }
 
 button.button_dataset {
-  background-color: #008CBA;
+  background-color: #FC8900;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -199,6 +199,25 @@ button.button_dataset:hover {
   opacity: 1;
 }
 
+button.button_webpage {
+  background-color: #182B49;
+  border: none;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:2px;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+button.button_webpage:hover {
+  opacity: 1;
+}
+
+
 .my_link {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
@@ -210,7 +229,7 @@ button.button_dataset:hover {
 }
 
 .date {
-  color:brown;
+  color:black;
   float:right;
 }
 
