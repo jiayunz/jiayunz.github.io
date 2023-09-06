@@ -128,7 +128,7 @@ a:hover{color:navy}
 */
 
 button.button_pdf {
-  background-color: #6E963B;
+  background-color: #e64b35ff;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -138,7 +138,7 @@ button.button_pdf {
   border-radius:2px;
   font-size: 12px;
   font-weight: bold;
-  opacity: 0.8;
+  opacity: 0.9; 
   transition: 0.3s;
 }
 button.button_pdf:hover {
@@ -146,7 +146,7 @@ button.button_pdf:hover {
 }
 
 button.button_code {
-  background-color: #C69214;
+  background-color: #8491b4ff;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -156,7 +156,7 @@ button.button_code {
   border-radius:2px;
   font-size: 12px;
   font-weight: bold;
-  opacity: 0.8;
+  opacity: 0.9;
   transition: 0.3s;
 }
 button.button_code:hover {
@@ -164,7 +164,7 @@ button.button_code:hover {
 }
 
 button.button_video {
-  background-color: #FFCD00;
+  background-color: #3c5488ff;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -174,7 +174,7 @@ button.button_video {
   border-radius:2px;
   font-size: 12px;
   font-weight: bold;
-  opacity: 0.8;
+  opacity: 0.9;
   transition: 0.3s;
 }
 button.button_video:hover {
@@ -182,7 +182,7 @@ button.button_video:hover {
 }
 
 button.button_dataset {
-  background-color: #FC8900;
+  background-color: #008176;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -192,7 +192,7 @@ button.button_dataset {
   border-radius:2px;
   font-size: 12px;
   font-weight: bold;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   transition: 0.3s;
 }
 button.button_dataset:hover {
@@ -200,7 +200,7 @@ button.button_dataset:hover {
 }
 
 button.button_webpage {
-  background-color: #182B49;
+  background-color: #f39b7fff;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -210,7 +210,7 @@ button.button_webpage {
   border-radius:2px;
   font-size: 12px;
   font-weight: bold;
-  opacity: 0.8;
+  opacity: 0.9;
   transition: 0.3s;
 }
 button.button_webpage:hover {
@@ -229,7 +229,7 @@ button.button_webpage:hover {
 }
 
 .date {
-  color:black;
+  /* color:black; */
   float:right;
 }
 
