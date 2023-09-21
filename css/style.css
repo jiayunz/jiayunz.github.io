@@ -128,7 +128,7 @@ a:hover{color:navy}
 */
 
 button.button_pdf {
-  background-color: #e64b35ff;
+  background-color: #3c5488ff;
   border: none;
   color: white;
   padding: 1px 10px;
@@ -164,7 +164,7 @@ button.button_code:hover {
 }
 
 button.button_video {
-  background-color: #3c5488ff;
+  background-color: #e64b35ff;
   border: none;
   color: white;
   padding: 1px 10px;
