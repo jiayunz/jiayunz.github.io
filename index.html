@@ -51,12 +51,12 @@
 						Prior to UCSD, I completed my B.S. (with honors) in Computer Science at Fudan University, where I worked closely with Prof. <a href="https://chenyang03.wordpress.com/">Yang Chen</a>.
 					</p>
 					<p>
-						My research focuses on enhancing the robustness and scalability of machine learning systems in data-constrained and heterogeneous environments, addressing challenges such as data scarcity, distribution shift, and varying computational capabilities across systems.  My primary areas of interest include:
+						My research focuses on developing robust machine learning systems in resource-constrained and heterogeneous environments. My primary areas of interest include:
 					</p>
 					<ul>
 						<li>Fast model adaptation under distribution shift</li>
-						<li>Robust machine learning in data-scarce systems</li>
-						<li>Federated learning in heterogeneous computing environments</li>
+						<li>Machine learning in data-scarce systems</li>
+						<li>Federated learning in heterogeneous distributed environments</li>
 					</ul>
 					<p>
 						These research directions have various applications such as anomaly detection, human activity recognition, health analytics, etc.
@@ -69,6 +69,13 @@
 					<h2>Selected Publications</h2>
 				</div>
 				<ul class="my_table">
+					<li class="my_item">
+						<strong>Contextual Inference From Sparse Shopping Transactions Based on Motif Patterns.</strong><br/>
+						<span><strong>Jiayun Zhang</strong>, Xinyang Zhang, Dezhi Hong, Rajesh K. Gupta, and Jingbo Shang.</span><br/>
+						<span>IEEE Transactions on Knowledge and Data Engineering (TKDE), 2025.</span><br/>
+						<span>Also presented at Workshop on Machine Learning on Graphs at ACM International Conference on Web Search and Data Mining (WSDM), 2023.</span><br/>
+						<button class="button_pdf" onclick="location.href='https://doi.org/10.1109/TKDE.2024.3452638'">PDF</button>
+					</li><br/>
 					<li class="my_item">
 						<strong>Learn from Failure: Fine-tuning LLMs with Trial-and-Error Data for Intuitionistic Propositional Logic Proving</strong><br/>
 						<span>Chenyang An, Zhibo Chen, Qihao Ye, Emily First, Letian Peng, <strong>Jiayun Zhang</strong>, Zihan Wang, Sorin Lerner, Jingbo Shang.</span><br/>
@@ -109,12 +116,6 @@
 						<span><strong>Jiayun Zhang</strong>, Xinyang Zhang, Dezhi Hong, Rajesh K. Gupta, and Jingbo Shang.</span><br/>
 						<span>International Joint Conferences on Artificial Intelligence (IJCAI), 2023.</span><br/>
 						<button class="button_pdf" onclick="location.href='https://www.ijcai.org/proceedings/2023/272'">PDF</button>
-					</li><br/>
-					<li class="my_item">
-						<strong>DEMOMOTIF: Demographic Inference from Sparse Records of Shopping Transactions based on Motif Patterns.</strong><br/>
-						<span><strong>Jiayun Zhang</strong>, Xinyang Zhang, Dezhi Hong, Rajesh K. Gupta, and Jingbo Shang.</span><br/>
-						<span>To Appear: IEEE Transactions on Knowledge and Data Engineering (TKDE).</span><br/>
-						<span>Also presented at Workshop on Machine Learning on Graphs at ACM International Conference on Web Search and Data Mining (WSDM), 2023.</span><br/>
 					</li><br/>
 					<li class="my_item">
 						<strong>Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks.</strong><br/>
@@ -185,12 +186,12 @@
 					<h2>Selected Research Projects</h2>
 				</div>
 				<div class="col-md-12 text-left">
-					<h3><u>Privacy-Preserving Distributed Learning in Heterogeneous Environments</u></h3>
+					<h3><u>Machine Learning in Heterogeneous Distributed Environments</u></h3>
 				</div>
 				<ul class="my_table">
 					<li class="my_item">
 						<img src="images/sys_hetero.png"" height="85" alt="generation" class="img_paper"/>
-						<strong>Federated Learning with Heterogeneous Models (WWW'24)</strong><br/>
+						<strong>Federated Learning with Heterogeneous Models (WWW 2024 oral)</strong><br/>
 						<span>
 							We explore resource-skewed computing environments where few powerful computing machines collaborate with many lower-capacity mobile devices—a typical scenario where a company develops an ML system with its end users.
 							We design graph hypernetwork-based aggregation by modeling computational graphs, enabling reciprocal knowledge exchange for heterogeneous model architectures to fit varied device capacities.
@@ -200,7 +201,7 @@
 				<ul class="my_table">
 					<li class="my_item">
 						<img src="images/kdd-fedalign.png"" height="120" alt="generation" class="img_paper"/>
-						<strong>Federated Learning with Non-identical Client Class Sets (KDD'23)</strong><br/>
+						<strong>Federated Learning with Non-identical Client Class Sets (KDD 2023)</strong><br/>
 						<span>
 							We identify a new non-IID scenario in federated learning where clients annotate local data based on their own class sets and collaborate to learn a global model that works for the union of the classes.
 							We design FedAlign, a framework that leverages natural language class names to anchor the class representations and guide the align of feature spaces across clients.
@@ -208,12 +209,12 @@
 					</li><br/>
 				</ul>
 				<div class="col-md-12 text-left">
-					<h3><u>Machine Learning with Data Scarcity</u></h3>
+					<h3><u>Machine Learning in Data-Scarce Systems</u></h3>
 				</div>
 				<ul class="my_table">
 					<li class="my_item">
 						<img src="images/ijcai-stcolab.png"" height="95" alt="generation" class="img_paper"/>
-						<strong>Minimally-Supervised Contextual Inference from Human Mobility (IJCAI'23)</strong><br/>
+						<strong>Minimally-Supervised Contextual Inference from Human Mobility (IJCAI 2023)</strong><br/>
 						<span>
 							We study the problem of contextual inference from human mobility under minimal supervision (i.e., a few labels per class and massive unlabeled data).
 							We design STColab, a collaborative distillation framework that iteratively distills knowledge between spatial and temporal information and enhances contextual inference when only limited labels are available.
@@ -221,7 +222,7 @@
 					</li><br/>
 					<li class="my_item">
 						<img src="images/wsdm-demomotif.png"" height="110" alt="generation" class="img_paper"/>
-						<strong>Demographic Inference from Sparse Shopping Transactions (MLoG Workshop @ WSDM'23)</strong><br/>
+						<strong>Demographic Inference from Sparse Shopping Transactions (TKDE 2025)</strong><br/>
 						<span>
 							We study demographic inference using only a few grocery transactions (e.g., 1 to 10) per household.
 							We propose a graph embedding method based on motif (i.e., subgraph) patterns.
@@ -235,7 +236,7 @@
 				<ul class="my_table">
 					<li class="my_item">
 						<img src="images/usenix-fawkes.png"" height="120" alt="generation" class="img_paper"/>
-						<strong>Protecting Personal Privacy against Unauthorized DL Models (USENIX Security'20)</strong><br/>
+						<strong>Protecting Personal Privacy against Unauthorized DL Models (USENIX Security 2020)</strong><br/>
 						<span>
 							We build Fawkes, a system that allows individuals to inoculate themselves against unauthorized facial recognition models.
 							Fawkes achieves this by helping users add imperceptible pixel-level changes (i.e. "cloaks") to their photos before releasing them.
@@ -368,7 +369,7 @@
 		</div> <!-- class="main" -->
 		
 		<div style="padding:14px 0px 50px 0px;text-align:center;color:#d9d9d9;clear:both">
-			Last updated at Sep 20, 2024
+			Last updated at Jan 10, 2024
 		</div>
 
 		</div> <!-- class="inner page" -->
